@@ -159,4 +159,28 @@ Small negative kickback observed during regeneration is expected in dynamic latc
 
 ---
 
-## 📁 Repository Structure
+
+---
+
+## 🧠 Key Technical Insights
+
+- Dynamic latch-based sense amplifiers provide high-speed differential amplification.
+- Proper transistor sizing directly impacts read stability and write margin.
+- Removing unintended DC paths is critical in dynamic circuits.
+- Level-1 MOS models are suitable for conceptual validation but not tape-out accuracy.
+
+---
+
+## 📌 Conclusion
+
+The 6T SRAM cell integrated with a dynamic latch-type sense amplifier has been successfully designed and verified in 180nm CMOS using LTspice.
+
+The design demonstrates:
+
+✔ Stable data retention  
+✔ Reliable differential sensing  
+✔ Strong regenerative amplification  
+✔ Realistic bitline loading behavior  
+
+This project provides a solid foundation for SRAM read path and sense amplifier design.
+
